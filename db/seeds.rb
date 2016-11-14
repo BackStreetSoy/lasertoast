@@ -5,5 +5,4 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-
-beaks = Comic.create(title: "Beaks", image: "beaks.png") 
+beaks = Comic.create(title: "Beaks", image: "beaks.png")

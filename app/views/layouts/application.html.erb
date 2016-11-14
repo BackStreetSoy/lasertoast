@@ -10,13 +10,13 @@
 <body>
     <div class="nav_heads">
     <p>
-        <img src="/assets/nav_headz.png" alt="Smiley face" height="510" width="630">
+        <%= image_tag ("nav_headz.png"),  :style => "height: 510px; width: 630px;" %>
     </p>
 </div>
 
 <div class="laser_toast">
     <p>
-        <img src="/assets/lasertoasttitle.png" height="460" width="640">
+        <%= image_tag ("lasertoasttitle.png"), :style => "height: 460px; width: 640px;" %>
     </p>
 </div>
 
@@ -25,25 +25,23 @@
 <tr>
     <td>
         <a href="/">
-        <img class="comic_link" src="/assets/comic_bubble.png" style="border-style: none;"
-        height="75" width="80"></a>
+              <%= image_tag ("comic_bubble.png"), :class=>"comic_link",  :style => "height: 75px; width: 80px; border-style: none;" %>
+        </a>
     </td>
+
     <td>
         <a href="/words">
-        <img class="words_link" src="/assets/words2.png" style="border-style: none;"
-        height="75" width="80"></a>
+
+          <%= image_tag ("words2.png"), :class=>"words_link",  :style => "height: 75px; width: 80px; border-style: none;" %>
+        </a> 
     </td>
     <td>
         <a href="/about">
-            <img class="about_link" src="/assets/about.png" style="border-style: none;"
-            height="75" width="80">
+          <%= image_tag ("about.png"), :class=>"about_link",  :style => "height: 75px; width: 80px; border-style: none;" %>
         </a>
     </td>
 </tr>
 </table>
-
-
-
 
 
 

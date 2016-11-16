@@ -8,28 +8,46 @@ body{
     position: relative;
 };
 
+*{
+    border: 1px dashed transparent;
+}
+
+.site_header{
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+}
+
 
 
 .nav_heads{
-
+    display: inline;
     margin-left: 15%;
-    margin-bottom: -43%;
-    z-index: -1;
+    z-index: -1
+
   
 };
 
 .laser_toast{
     position: absolute;
-    height: 300px;
-    float: right;
-    margin-top: 140px;
-    margin-left: 340px;
+    display: inline;
+    bottom: 40%;
+    top: 30%;
+    left: 35%
+
+}
+
+.bubble_table{
+    position: absolute;
+    display: inline;
+    top: -2%;
+    right: 75%
 }
 
 .comic_link
 {
     margin-left: 500%;
-    margin-top: 80%;
+    margin-bottom: -80%;
 }
 
 .words_link
@@ -55,7 +73,7 @@ bottom: -5px;
     min-height: 200px;
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 300px;
+    margin-top: 480px;
     border-radius: 10px;
     background: #FFF;
     overflow: hidden;

@@ -8,40 +8,41 @@
 </head>
 
 <body>
+
+
+<div class="site_header">
     <div class="nav_heads">
-    <p>
-        <%= image_tag ("nav_headz.png"),  :style => "height: 510px; width: 630px;" %>
-    </p>
+            <%=image_tag ("nav_headz.png"),  :style => "height: 510px; width: 630px;" %>
+
+    </div>
+
+    <div class="laser_toast">
+            <%= image_tag ("lasertoasttitle.png"), :style => "height: 460px; width: 640px;" %>
+    </div>
+
+
+    <table class="bubble_table"> 
+    <tr>
+        <td>
+            <a href="/">
+                <%= image_tag ("comic_bubble.png"), :class=>"comic_link",  :style => "height: 75px; width: 80px; border-style: none;" %>
+            </a>
+        </td>
+
+        <td>
+            <a href="/words">
+
+              <%= image_tag ("words2.png"), :class=>"words_link",  :style => "height: 75px; width: 80px; border-style: none;" %>
+            </a> 
+        </td>
+        <td>
+            <a href="/about">
+              <%= image_tag ("about.png"), :class=>"about_link",  :style => "height: 75px; width: 80px; border-style: none;" %>
+            </a>
+        </td>
+    </tr>
+    </table>
 </div>
-
-<div class="laser_toast">
-    <p>
-        <%= image_tag ("lasertoasttitle.png"), :style => "height: 460px; width: 640px;" %>
-    </p>
-</div>
-
-
-<table> 
-<tr>
-    <td>
-        <a href="/">
-              <%= image_tag ("comic_bubble.png"), :class=>"comic_link",  :style => "height: 75px; width: 80px; border-style: none;" %>
-        </a>
-    </td>
-
-    <td>
-        <a href="/words">
-
-          <%= image_tag ("words2.png"), :class=>"words_link",  :style => "height: 75px; width: 80px; border-style: none;" %>
-        </a> 
-    </td>
-    <td>
-        <a href="/about">
-          <%= image_tag ("about.png"), :class=>"about_link",  :style => "height: 75px; width: 80px; border-style: none;" %>
-        </a>
-    </td>
-</tr>
-</table>
 
 
 

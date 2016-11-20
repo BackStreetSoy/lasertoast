@@ -11,6 +11,6 @@ class ComicController < ApplicationController
         @random_comic_id = rand(1..Comic.all.length)
 
 
-        @comic = Comic.find(params[:id])
+        @current_comic = Comic.find(params[:id])
     end 
 end

@@ -1,0 +1,119 @@
+/* line 5, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+body {
+  background-image: url(/assets/space_background-bfde52a3d03f67355d703b2dd35a320390a1884cfc685f3566c0019af0d9cfb3.png);
+  background-size: 600px;
+  position: relative;
+}
+
+/* line 11, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+* {
+  border: 1px dashed transparent;
+}
+
+/* line 15, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+.site_header {
+  position: absolute;
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 23, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+.nav_heads {
+  display: inline;
+  margin-left: 15%;
+  z-index: -1;
+}
+
+/* line 31, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+.laser_toast {
+  position: absolute;
+  display: inline;
+  bottom: 40%;
+  top: 30%;
+  left: 35%;
+}
+
+/* line 40, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+.bubble_table {
+  position: absolute;
+  display: inline;
+  top: -2%;
+  right: 75%;
+}
+
+/* line 47, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+.comic_link {
+  margin-left: 500%;
+  margin-bottom: -80%;
+}
+
+/* line 53, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+.words_link {
+  margin-left: 600%;
+  margin-top: 80%;
+}
+
+/* line 59, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+.about_link {
+  margin-left: 770%;
+  margin-top: 80%;
+}
+
+/* line 65, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+a img:hover {
+  position: relative;
+  bottom: -5px;
+}
+
+/* line 72, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+.content {
+  min-height: 200px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 480px;
+  border-radius: 10px;
+  background: #FFF;
+  overflow: hidden;
+}
+
+/* line 82, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+.content .post-nav {
+  height: 40px;
+  width: 375px;
+  margin: 18px auto;
+  padding: 8px 0 0;
+  list-style-type: none;
+}
+
+/* line 93, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+.content table {
+  margin-left: 350px;
+  position: relative;
+  z-index: 2;
+}
+
+/* line 101, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+table a {
+  cursor: pointer;
+}
+
+/* line 107, /Users/WizardFartSauce/Desktop/lastertoast/app/assets/stylesheets/comic.scss */
+.comic_content {
+  margin-left: 130px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

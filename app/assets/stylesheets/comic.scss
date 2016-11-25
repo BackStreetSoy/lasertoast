@@ -13,35 +13,36 @@ body{
 }
 
 .site_header{
-    position: absolute;
     margin: 0 auto;
-    display: block;
+    min-height: 200px;
+    max-width: 500px;
 }
 
 
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
 
 .nav_heads{
-    display: inline;
-    margin-left: 15%;
-    z-index: -1
-
-  
-};
+    vertical-align: middle;
+}
 
 .laser_toast{
     position: absolute;
     display: inline;
     bottom: 40%;
-    top: 30%;
-    left: 35%
+    top: 12%;
+    left: 42%
 
 }
 
 .bubble_table{
     position: absolute;
     display: inline;
-    top: -2%;
-    right: 75%
+    top: -0.5%;
+    right: 64%
 }
 
 .comic_link
@@ -63,6 +64,7 @@ body{
 }
 
 a img:hover
+
 { 
 position: relative; 
 bottom: -5px;
@@ -73,7 +75,6 @@ bottom: -5px;
     min-height: 200px;
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 480px;
     border-radius: 10px;
     background: #FFF;
     overflow: hidden;

@@ -33,8 +33,8 @@ body{
 .laser_toast{
     position: absolute;
     display: inline;
-    bottom: 40%;
-    top: 10%;
+    bottom: 100px;
+    top: 120px;
     left: 35%;
     z-index: -1;
 
@@ -74,7 +74,7 @@ bottom: -5px;
 
 
 .content {
-    min-height: 200px;
+    min-height: 700px;
     max-width: 1000px;
     margin: 0 auto;
     border-radius: 10px;
@@ -89,8 +89,6 @@ bottom: -5px;
     padding: 8px 0 0;
     list-style-type: none;
 }
-
-
 
 
 .content table

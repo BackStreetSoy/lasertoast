@@ -46,7 +46,7 @@
 var comic_id = "<%=@most_recent_comic.id.to_json%>"
 var comic_url = "<%=@most_recent_comic.title%>"
 
-
+console.log(comic_id)
 
 var disqus_config = function () {
 this.page.url = comic_url;  // Replace PAGE_URL with your page's canonical URL variable
@@ -62,7 +62,5 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
 
 </div>

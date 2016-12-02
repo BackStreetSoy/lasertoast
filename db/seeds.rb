@@ -7,3 +7,4 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 beaks = Comic.create(title: "Beaks", image: "beaks.png")
 cyclops = Comic.create(title: "Cyclops", image: "cyclops.png")
+truestform = Comic.create(title: "danstruestform", image:"danstruestform.png")

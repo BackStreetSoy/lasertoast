@@ -1,12 +1,14 @@
    
-<div class="content">
+<div class="content
+
+
     <table>
   <tr>
 
 <% unless @most_recent_comic == @first_comic %>
     <td style="width: 20px;">
         <a class="previous_button" href="/comic/<%=@most_recent_comic.id - 1%>">
-            <%= image_tag ("random_nav.png"), :class=>"previous_button",  :style => "height: 45px; width: 25px;" %>
+            <%= image_tag ("random_nav.png"), :class=>"previous_button",  :style => "height: 45px; width: 25px; margin-left: 300px" %>
          </a>
     </td>
 <%end%>
@@ -24,7 +26,6 @@
         </a>
     </td>
   <%end%>
-
   </tr>
 </table>
 

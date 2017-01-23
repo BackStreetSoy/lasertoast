@@ -21,4 +21,5 @@ shitler = Comic.create(title: "shitlazer", image: "shitlerkitty.png")
 what = Comic.create(title: "What", image: "what.png")
 kitler = Comic.create(title: "kitler", image: "kitler.png")
 outie = Comic.create(title: "outie", image: "outie1.png")
+oops = Comic.create(title: "oops", image: "oops.png")
 

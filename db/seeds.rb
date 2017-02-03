@@ -22,4 +22,5 @@ what = Comic.create(title: "What", image: "what.png")
 kitler = Comic.create(title: "kitler", image: "kitler.png")
 outie = Comic.create(title: "outie", image: "outie1.png")
 oops = Comic.create(title: "oops", image: "oops.png")
+deep = Comic.create(title: "deep and perfect", image: "deep_and_perfect.png")
 

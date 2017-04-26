@@ -5,28 +5,26 @@
 
 <% unless @current_comic == @first_comic %>
     <td style="height: 100px; width: 100px;">
-        <a class="previous_button" href="/comic/<%=@current_comic.id - 1%>" style="color: black;  height: 50px; font-family: Garamond Premier Pro; font-size: 22px; margin-top: 5px; text-decoration: none; margin-left: 110px;">
-
-            <p>previous</p>
-
-         </a>
+      <a class="previous_button" href="/comic/<%=@current_comic.id - 1%>" style="font-family: Garamond Premier Pro;">
+       previous
+      </a>
     </td>
-    
+
 <%end%>
 
    <td style=" height: 100px; width: 100px;" >
-         <a class="random_button" href="/comic/<%=@random_comic_id%>" style="color: black;  height: 50px; font-family: Garamond Premier Pro; font-size: 22px; margin-top: 5px; text-decoration: none; margin-left: 110px;">
-            <p>random</p>
 
-         </a>
+      <a class="random_button" href="/comic/<%=@random_comic_id%>" style="font-family: Garamond Premier Pro;">random</a>
+
     </td>
 
 <% unless @current_comic == @most_recent_comic %>
+
     <td style= "width: 100px; width: 100px;">
-        <a class="next_button" href="/comic/<%=@current_comic.id + 1%>" style="color: black;  height: 50px; font-family: Garamond Premier Pro; font-size: 22px; margin-top: 5px; text-decoration: none; margin-left: 110px;">
-        <p>next</p>
-        </a>
+    <a href="/comic/<%=@current_comic.id + 1%>" class="next_button" style="font-family: Garamond Premier Pro;">next</a>
+    </a>
     </td>
+    
   <%end%>
 
   </tr>

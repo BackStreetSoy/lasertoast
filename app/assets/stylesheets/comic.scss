@@ -79,6 +79,26 @@ bottom: -5px;
     overflow: hidden;
 }
 
+.about_content{
+    min-height:500;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 2px;
+    background: #FFF;
+    overflow: hidden;
+
+}
+
+.words_content{
+    min-height:500;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 2px;
+    background: #FFF;
+    overflow: hidden;
+    
+}
+
 .content .post-nav {
     height: 40px;
     width: 375px;
@@ -108,28 +128,43 @@ table a
 }
 
 a.previous_button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-    color: initial;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 a.next_button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-    color: initial;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
     
 }
 
 a.random_button{
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-    color: initial;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 

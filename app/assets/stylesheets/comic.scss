@@ -140,6 +140,19 @@ a.previous_button {
     cursor: pointer;
 }
 
+a.previous_button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 a.next_button {
     background-color: black;
     border: none;
@@ -154,10 +167,36 @@ a.next_button {
     
 }
 
+a.next_button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 a.random_button{
     background-color: black;
     border: none;
     color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+a.random_button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;

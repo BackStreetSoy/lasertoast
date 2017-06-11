@@ -8,6 +8,8 @@
 toast_messiah = Comic.create(title: "toast_messiah", image: "toastworship.png");
 page_2 = Comic.create(title: "page_2", image:"page2.png");
 page_3 = Comic.create(title:"page_3", image:"toastpenis.png");
+page_4 = Comic.create(title:"page_4", image:"butterbody.png");
+
 
 
 
